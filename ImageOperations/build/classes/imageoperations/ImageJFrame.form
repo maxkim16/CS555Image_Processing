@@ -41,23 +41,6 @@
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                  <Component id="jTextFieldHeight" pref="50" max="32767" attributes="0"/>
-                                  <Component id="jTextFieldWidth" max="32767" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                                      <Component id="jLabelMask" min="-2" pref="93" max="-2" attributes="0"/>
-                                      <EmptySpace max="-2" attributes="0"/>
-                                      <Component id="jTextFieldMask" min="-2" pref="77" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                          </Group>
                           <Component id="jButtonDisplay" min="-2" max="-2" attributes="0"/>
                           <Component id="jComboBoxResample" min="-2" max="-2" attributes="0"/>
                           <Group type="102" alignment="0" attributes="0">
@@ -66,10 +49,35 @@
                               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <Component id="jTextFieldName" min="-2" pref="214" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jTextFieldHeight" pref="50" max="32767" attributes="0"/>
+                                  <Component id="jTextFieldWidth" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabelMask1" min="-2" pref="93" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jTextFieldMask" min="-2" pref="77" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                      <Component id="jLabelBoost" min="-2" pref="93" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jTextFieldBoost" min="-2" pref="77" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="odd" min="-2" pref="93" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
               </Group>
-              <EmptySpace min="-2" pref="151" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -101,16 +109,28 @@
                   <Component id="jLabelWidth" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
                   <Component id="jTextFieldWidth" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabelMask" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
                   <Component id="jTextFieldMask" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelMask1" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="odd" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jTextFieldHeight" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabelHeight" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
-                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jTextFieldHeight" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelHeight" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelBoost" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                          <Component id="jTextFieldBoost" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
               </Group>
-              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Component id="jLabelNumBits" min="-2" pref="33" max="-2" attributes="0"/>
@@ -170,7 +190,7 @@
     <Component class="javax.swing.JComboBox" name="jComboBoxResample">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="9">
+          <StringArray count="20">
             <StringItem index="0" value="Change Grayscale Level Resolution"/>
             <StringItem index="1" value="Nearest Neighbors"/>
             <StringItem index="2" value="Linear Interpolation (x-values)"/>
@@ -178,8 +198,19 @@
             <StringItem index="4" value="Bilinear Interpolation"/>
             <StringItem index="5" value="Shrink"/>
             <StringItem index="6" value="Histogram Equalization"/>
-            <StringItem index="7" value="Smoothing Filter"/>
-            <StringItem index="8" value=" "/>
+            <StringItem index="7" value="Local Histogram Equalization"/>
+            <StringItem index="8" value="Smoothing Filter"/>
+            <StringItem index="9" value="Median Filter"/>
+            <StringItem index="10" value="High Boost"/>
+            <StringItem index="11" value="Arithmetic mean filter"/>
+            <StringItem index="12" value="Geometric mean filter"/>
+            <StringItem index="13" value="Harmonic mean filter"/>
+            <StringItem index="14" value="Contraharmonic mean filter"/>
+            <StringItem index="15" value="Max filter"/>
+            <StringItem index="16" value="Min filter"/>
+            <StringItem index="17" value="Midpoint filter"/>
+            <StringItem index="18" value="Alpha-trimmed mean filter"/>
+            <StringItem index="19" value=" "/>
           </StringArray>
         </Property>
       </Properties>
@@ -223,12 +254,27 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldName1ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabelMask">
+    <Component class="javax.swing.JLabel" name="jLabelBoost">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Boost C:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldMask">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelMask1">
       <Properties>
         <Property name="text" type="java.lang.String" value="Mask Size:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="jTextFieldMask">
+    <Component class="javax.swing.JTextField" name="jTextFieldBoost">
+    </Component>
+    <Component class="javax.swing.JLabel" name="odd">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="33" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="(odd number)"/>
+      </Properties>
     </Component>
   </SubComponents>
 </Form>
